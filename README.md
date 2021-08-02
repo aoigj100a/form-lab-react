@@ -25,7 +25,8 @@
 ### 問題與解決
 - [Error “render is a Node specific API” when using the module @react-pdf/renderer](https://stackoverflow.com/questions/67185914/error-render-is-a-node-specific-api-when-using-the-module-react-pdf-renderer)
 - [`npm i @react-pdf/renderer` 出現錯誤 ERESOLVE unable to resolve dependency tree 因 npm7 預設"peerDependencies are installed by default" 使用`npm i @react-pdf/renderer --force`安裝成功](https://docs.npmjs.com/cli/v7/configuring-npm/package-json#peerdependencies):ok::heavy_check_mark:
-- [Error: Invalid hook call. Hooks can only be called inside of the body of a function component](https://reactjs.org/link/invalid-hook-call)
+- [使用usePDF 觸發 Error: Invalid hook call. Hooks can only be called inside of the body of a function component -> 將函示元件中 hook 位置調整](https://reactjs.org/link/invalid-hook-call):ok::heavy_check_mark:
+- [使用 PDFDownloadLink 會觸發 Error: Argument appears to not be a ReactComponent.](https://www.google.com.tw/search?q=Error:+Argument+appears+to+not+be+a+ReactComponent.+Keys:+type,box,style,props,children&source=lmns&hl=zh-TW&sa=X&ved=2ahUKEwjN6eakjpLyAhXFIqYKHX5wDVAQ_AUoAHoECAEQAA)
 <!-- - :joy_cat: :ok::heavy_check_mark: -->
 
 ### 參考資料
